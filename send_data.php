@@ -20,10 +20,10 @@ if ($TDS !== null && $pH !== null && $Turbidity !== null && $TDSStatus !== null 
     echo "Modified TurbidityStatus: $TurbidityStatus<br>";
 
     // Database connection settings
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "waterqualitymonitoring";
+    $servername = "waterguard.database.windows.net";
+    $username = "waterguardmonitoringsystem";
+    $password = "K7BVJwater0";
+    $dbname = "waterguardmonitoringsystem";
 
     // Create connection  
     $conn = new mysqli($servername, $username, $password, $dbname);
