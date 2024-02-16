@@ -28,4 +28,4 @@ jobs:
           app-name: 'your-azure-web-app-name'
           slot-name: 'Production' # Change this if you are using deployment slots
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_TENANTID_2F28B01E0DDE4330BB17CED3257F24E2 }}
